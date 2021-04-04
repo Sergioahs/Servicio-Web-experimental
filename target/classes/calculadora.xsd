@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.example.org/calculadora" 
+    xmlns:tns="http://www.example.org/calculadora" elementFormDefault="qualified">
+
+    <element name="DatosRequest">
+        <complexType>
+            <sequence>
+                <element name="nombre" type="string"></element>
+                <element name="edad" type="string"></element>
+                <element name="ingresoMensual" type="string"></element>                
+                <element name="Cancer" type="string"></element>
+                
+            </sequence>
+        </complexType>
+    </element>
+    
+    <element name="DatosResponse">
+        <complexType>
+            <sequence>
+                <element name="nombre" type="string"></element>
+                <element name="edad" type="string"></element>
+                <element name="ingresoMensual" type="string"></element>
+                <element name="Cancer" type="string"></element>
+                <element name="respuesta" type="string"></element>
+            </sequence>
+        </complexType>
+    </element>
+    
+</schema>
